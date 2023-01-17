@@ -1,0 +1,18 @@
+Started GET "/" for ::1 at 2023-01-17 18:09:52 +0000
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 27.1ms | Allocations: 407)
+  Rendered layout layouts/application.html.erb (Duration: 906.5ms | Allocations: 87988)
+Completed 200 OK in 1240ms (Views: 998.3ms | ActiveRecord: 0.0ms | Allocations: 92573)
+
+
+Started GET "/about" for ::1 at 2023-01-17 18:10:01 +0000
+Processing by PagesController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (Duration: 3.5ms | Allocations: 91)
+  Rendered layout layouts/application.html.erb (Duration: 19.2ms | Allocations: 2424)
+Completed 200 OK in 25ms (Views: 19.7ms | ActiveRecord: 0.0ms | Allocations: 2682)
+
+
